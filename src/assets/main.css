@@ -1,0 +1,11 @@
+@import './base.css';
+@import './tailwind.css';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  @apply bg-gradient-to-r from-cyan-500 to-blue-500;
+}
